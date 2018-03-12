@@ -6,12 +6,14 @@
     <title>Sit on Chair</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,600,700,800&amp;subset=latin-ext" rel="stylesheet">
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800&amp;subset=latin-ext" rel="stylesheet">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
+
 <header class="page-header">
     <div class="container clearfix">
         <h1 class="page-logo">
@@ -20,7 +22,7 @@
             </a>
         </h1>
         <nav class="page-nav">
-            <ul class="page-nav-lis">
+            <ul class="page-nav-list">
                 <li>
                     <a href="">O firmie</a>
                     <ul class="page-nav-sublist">
@@ -35,5 +37,129 @@
         </nav>
     </div>
 </header>
+
+<div class="main-slider-bg">
+    <div class="container">
+        <div class="main-slider" id="mainSlider">
+            <button type="button" class="main-slider-prev">
+                &lt;
+            </button>
+            <button type="button" class="main-slider-next">
+                &gt;
+            </button>
+            <div class="main-slider-slides">
+
+                <div class="main-slider-slide active">
+                    <h2 class="main-slider-slide-title">1</h2>
+                </div>
+                <div class="main-slider-slide">
+                    <h2 class="main-slider-slide-title">2</h2>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<section class="middle">
+    <div class="container clearfix">
+        <div class="middle-box1">
+            <div class="white1">
+                <h4 class="chair"><span>Chair CLAIR</span></h4>
+                <div class="greenline"></div>
+            </div>
+        </div>
+        <div class="middle-box2">
+            <div class="white2">
+                <h4><span>Chair MARGARITA</span></h4>
+                <div class="greenline"></div>
+
+            </div>
+        </div>
+        <div class="middle-box3">
+            <h4><span>Finds all inputs</span></h4>
+            <div class="greenline"></div>
+            <p>Finds all inputs that are not checked and highlights the next sibling span. Notice there is no change when clicking the checkboxes since no clock events have been linked.</p> <p>Notice there is no change when clocking the checkboxes since no clock events have been made.</p>
+
+        </div>
+    </div>
+<section class="main-cost">
+    <div class="main-cennik">
+        <h3><span class="cennik">cennik</span></h3>
+        <div class="title-underline"></div>
+    <div class="cost">
+        <div class="basic">
+            <h3 class="basic-title">Basic Plan</h3>
+            <div class="basic-content">
+                <h4 class="basic-content-1">85</h4>
+                <h4 class="basic-content-2">99</h4>
+                <h4 class="basic-content-5">pln/msc</h4>
+            </div>
+                <h4 class="basic-content-3">Zakup towaru + dowóz</h4><h4 class="basic-content-4">Serwis</h4>
+                <button type="button" class="btn"><a href="/">Dołącz</a></button>
+        </div>
+        <div class="standard">
+            <h3 class="standard-title">Standard Plan</h3>
+            <div class="standard-content">
+                <h4 class="standard-content-1">95</h4>
+                <h4 class="standard-content-2">99</h4>
+                <h4 class="standard-content-5">pln/msc</h4>
+            </div>
+            <h4 class="standard-content-3">Zakup towaru + dowóz</h4><h4 class="standard-content-4">Serwis</h4><h4 class="standard-content-6">Gwarancja 5 lat</h4>
+            <button type="button" class="btn-1"><a href="/">Dołącz</a></button>
+        </div>
+        <div class="advance">
+            <h3 class="advance-title">Advance Plan</h3>
+            <div class="basic-content">
+                <h4 class="basic-content-1">211</h4>
+                <h4 class="basic-content-2">00</h4>
+                <h4 class="basic-content-5">pln/msc</h4>
+            </div>
+            <h4 class="basic-content-3">Zakup towaru + dowóz</h4><h4 class="basic-content-4">Serwis</h4><h4 class="advance-content-1">Gwarancja 6 lat</h4><h4 class="advance-content-2">Porady Projektanta</h4>
+            <button type="button" class="btn"><a href="/">Dołącz</a></button>
+        </div>
+        </div>
+    </div>
+</section>
+<section class="main-contact">
+    <div class="container">
+            <h2 class="section-title">
+                Kontakt
+            </h2>
+        <div class="title-underline">
+        </div>
+        <form class="form clearfix" action="" method="get">
+            <div class="form-left">
+                <div class="form-row">
+                    <label for="formName" class="visuallyhidden">Imię</label>
+                    <input type="text" name="name" id="formName" placeholder="Imię">
+                </div>
+                <div class="form-row">
+                    <label for="formEmail" class="visuallyhidden">Email</label>
+                    <input type="email" name="email" id="formEmail" placeholder="Email">
+                </div>
+                <div class="form-row">
+                    <label for="formMsg" class="visuallyhidden">Wiadomość</label>
+                    <textarea name="message" id="formMsg" placeholder="Wiadomość"></textarea>
+                </div>
+
+            </div>
+            <div class="form-right">
+                <div class="form-addon"></div>
+                <label class="form-checkbox">
+                    <input type="checkbox">
+                    <span class="form-checkbox-mark"></span>
+                    Zgadzam się na przetwarzanie danych osobowych
+                </label>
+                <button type="button" class="form-btn">Wyślij</button>
+            </div>
+        </form>
+    </div>
+</section>
+<footer>
+    <div class="container clearfix">
+        <div class="rights">Copyright 2014 | All Rights Reserved. - Sit On Chair</div>
+        <div class="logo"><p>sit on chair</p></div>
+        <div class="social"><img src="images/flickr.png" /><img src="images/pinterest.png" /><img src="images/twitter.png" /><img src="images/vimeo.png" /></div>
+</footer>
 </body>
 </html>
